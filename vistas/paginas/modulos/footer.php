@@ -1,13 +1,11 @@
 
-<!--=====================================
-CONTÁCTENOS
-======================================-->
+
 <!--=====================================
 CONTÁCTENOS
 ======================================-->
 <div class="contactenos container-fluid bg-white py-4" id="contactenos">
 	<div class="container text-center">
-		<h1 class="py-sm-4">CONTÁCTENOS</h1>
+		<h1 class="py-sm-4 scrollflow -pop -opacity">CONTÁCTENOS</h1>
 		<form action="<?php echo htmlspecialchars($_SERVER['PHP_SELF']); ?>" method="post">
 			<input type="text" class="form-control " name="nombre" id="nombre" placeholder="Nombre:*" value="<?php if(!$enviado && isset($nombre)) echo $nombre?>">
 			<input type="text" class="form-control " name="correo" id="correo" placeholder="Correo:*" value="<?php if(!$enviado && isset($correo)) echo $correo?>">
@@ -111,7 +109,7 @@ FOOTER
 
 	</div>
 	<div class="hecho" ">
-		<a href="index.html">
+		<a href="<?php echo $ruta ?>index.html">
 			<span >"Desarrollo &nbsp;&#60;&#47;&#62; DACoder"</span>
 		</a>
 	</div>

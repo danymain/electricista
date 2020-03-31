@@ -101,7 +101,7 @@ PLANES MÓVIL
 
 <div class="d-block d-lg-none serviciosMovil jd-slider bg-white" id="serviciosMovil">
 
-	<h1 class="text-center py-3">Servicios que ofrecemos</h1>
+	<h1 class="text-center py-3 scrollflow -pop -opacity">SERVICIOS QUE OFRECEMOS</h1>
 
 	 <div class="slide-inner">
 

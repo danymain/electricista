@@ -3,20 +3,20 @@
 Trabajos hechos
 ======================================-->
 
-<div class="habitaciones container-fluid bg-light" id="habitaciones">
+<div class="servicios container-fluid bg-light" id="servicios">
 
 	<div class="container">
 
-		<h1 class="pt-4 text-center scrollflow -pop -opacity">PORTAFOLIO </h1>
+		<h1 class="pt-4 text-center scrollflow -pop -opacity">TRABAJOS REALIZADOS </h1>
 		<!-- <h4 class="scrollflow -slide-right -opacity">Here Are Some Interesting Projects We Did</h4> -->
-		<h5 class="scrollflow -slide-left -opacity">
+		<h5 class=" text-justify scrollflow -slide-left -opacity">
 			Many people renovate homes to create a new appearance for their home, or so another person can live in the residence. Builders often renovate homes because it is a stable source of income.</h5>
 
 		<div class="row p-4 text-center">
 
 			<div class="col-12 col-lg-4 pb-3 px-0 px-lg-3">
 
-				<a href="../enfriamiento">
+				<a href="<?php echo $ruta?>enfriamiento">
 
 					<figure class="text-center">
 
@@ -38,7 +38,7 @@ Trabajos hechos
 
 			<div class="col-12 col-lg-4 pb-3 px-0 px-lg-3">
 
-				<a href="../plomeria">
+				<a href="<?php echo $ruta?>plomeria">
 
 					<figure class="text-center">
 
@@ -60,7 +60,7 @@ Trabajos hechos
 
 			<div class="col-12 col-lg-4 pb-3 px-0 px-lg-3">
 
-				<a href="../electricidad">
+				<a href="<?php echo $ruta?>electricidad">
 
 					<figure class="text-center">
 

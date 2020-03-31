@@ -13,7 +13,7 @@ HEADER
 		<div class="grid-container menuH py-2">
 			<!-- logo -->
 			<div class="grid-item1">
-				<a href="../index.php">
+				<a href="<?php echo $ruta?>index.php">
 					<img src="img/logo.png" class="img-fluid">
 				</a>
 
@@ -21,20 +21,20 @@ HEADER
 			</div>
 
 			<div class="grid-item d-none d-lg-block">
-				<a class="nav-link text-white" href="../#banner">
+				<a class="nav-link text-white" href="<?php echo $ruta?>#banner">
 					<span>Inicio</span>
 				</a>
 			</div>
 
 			<div class="grid-item d-none d-lg-block">
-				<a class="nav-link text-white" href="../#quienesSomos">
+				<a class="nav-link text-white" href="<?php echo $ruta?>#quienesSomos">
 					<span>¿Quienes somos?</span>
 				</a>
 
 			</div>
 
 			<div class="grid-item d-none d-lg-block">
-				<a class="nav-link text-white" href="../#servicios">
+				<a class="nav-link text-white" href="<?php echo $ruta?>#servicios">
 					<span>Servicios</span>
 				</a>
 
@@ -42,7 +42,7 @@ HEADER
 
 
 			<div class="grid-item d-none d-lg-block">
-				<a class="nav-link text-white" href="../#contactanos">
+				<a class="nav-link text-white" href="<?php echo $ruta?>#contactanos">
 					<i class="fas fa-phone-volume"></i><span> &nbsp Contactanos </span>
 				</a>
 			</div>
@@ -82,10 +82,11 @@ HEADER
 		</div>
 
 			<!-- MENÚ HAMBURGUESA -->
-
+<!--
 			<div class="grid-item  d-block d-lg-none botonMenu">
 
-				<i class="fas fa-bars"></i>
+				<i class="fas fa-bars"></i> -->
+				<span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
 
 			</div>
 
@@ -98,13 +99,13 @@ HEADER
 <!--=====================================
 MENÚ
 ======================================-->
-
+<!--
 <div class="menu container-fluid p-0">
 
 	<ul class="nav nav-justified py-0">
 
 		<li class="nav-item">
-			<a  class="nav-link text-white" href="#banner">Inicio</a>
+			<a  class="nav-link text-white" href="#banner">Iniciodfsd</a>
 		</li>
 
 		<li class="nav-item">
@@ -112,7 +113,7 @@ MENÚ
 		</li>
 
 		<li class="nav-item">
-			<a   class="nav-link text-white" href="#soluciones">Servicios</a>
+			<a   class="nav-link text-white" href="#servicios">Servicios</a>
 		</li>
 
 		<li class="nav-item">
@@ -155,12 +156,12 @@ MENÚ
 	</ul>
 
 
-</div>
+</div> -->
 
 <!--=====================================
 MENÚ MÓVIL
 ======================================-->
-<div class="menuMovil">
+<!-- <div class="menuMovil">
 
 
 	<ul class="nav flex-column mt-4 pl-4 mb-5">
@@ -177,12 +178,8 @@ MENÚ MÓVIL
 			<a class="nav-link text-white my-2" href="#servicios">Servicios que ofrecemos</a>
 		</li>
 
-		<!-- <li class="nav-item">
-			<a class="nav-link text-white my-2" href="#restaurante">Restaurante</a>
-		</li> -->
-
 		<li class="nav-item">
-			<a class="nav-link text-white my-2" href="#contactanos">Contáctenos</a>
+			<a class="nav-link text-white my-2" href="#contactenos">Contáctenos</a>
 		</li>
 		<br>
 		<li class="nav-item">
@@ -220,4 +217,14 @@ MENÚ MÓVIL
 
 	</ul>
 
+</div> -->
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content ">
+    <a href="<?php echo $ruta?>"onclick="closeNav()">Inicio</a>
+    <a href="<?php echo $ruta?>#quienesSomos"onclick="closeNav()">¿Quienes somos?</a>
+    <a href="<?php echo $ruta?>#servicios"onclick="closeNav()">Servicios</a>
+    <a href="<?php echo $ruta?>#contactenos"onclick="closeNav()">Contacto</a>
+  </div>
 </div>

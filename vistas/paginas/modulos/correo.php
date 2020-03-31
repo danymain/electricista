@@ -72,7 +72,7 @@ if(!$errores==""){
 // Comprobamos si hay errores, si no hay entonces enviamos.
 	if (!$errores) {
 		$enviar_a = 'daniel.almanza31@gmail.com';
-		$asunto = 'Correo enviado desde HOTEL MAR Y SOL';
+		$asunto = 'Electrical Service';
 		$mensaje = "De: $nombre \n";
 		$mensaje.= "Correo: $correo \n";
         $mensaje.= "Tipo: $tipo \n";

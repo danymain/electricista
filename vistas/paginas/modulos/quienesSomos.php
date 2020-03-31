@@ -7,7 +7,7 @@ quienes somos
 
 	<div class="container">
 
-		<h1 class="pt-5 text-center scrollflow -slide-left -opacity">¿Quienes somos?</h1>
+		<h1 class="pt-5 text-center scrollflow -pop -opacity">¿QUIENES SOMOS?</h1>
 
 			<div class="grid-container pt-4 pb-5 px-0 px-lg-5">
 

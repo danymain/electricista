@@ -1,3 +1,7 @@
+<?php
+ $ruta=ControladorRuta::ctrRuta();
+
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
